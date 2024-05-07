@@ -10,8 +10,8 @@ const Ex7 = () => {
 
     return (
         <div>
-            <button onClick={handleAddNumber}>add element</button>
-            <p>{'['}{arr.join(', ')}{']'}</p> 
+            <p>Mảng số{'['}{arr.join(', ')}{']'}</p> 
+            <button onClick={handleAddNumber}>Add element</button>
         </div>
     );
 };
